@@ -32,12 +32,9 @@ function humanSize(b) {
   } while (Math.trunc(B / 1000) > 0);
 
   // Return size rounded to 1 decimal with correspoding prefix
-  return round(B, 1).toString() + prefix[i] + "B";
-}
-
-// Function to round to a specific amount of digits, taken from https://www.30secondsofcode.org/js/s/round
-function round(n, decimals = 0) {
-  return Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`);
+  return (
+    Number(`${Math.round(`${B}e${1}`)}e-${1}`).toString() + prefix[i] + "B"
+  );
 }
 
 module.exports = humanSize;
