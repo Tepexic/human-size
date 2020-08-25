@@ -5,7 +5,8 @@
   "main": "humanSize.js",
   "scripts": {
     "run": "node humanSize.js",
-    "test": "jest"
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
   "keywords": [],
   "author": "@Tepexic",
