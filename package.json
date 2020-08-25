@@ -1,0 +1,16 @@
+{
+  "name": "human-size",
+  "version": "1.0.0",
+  "description": "Converts any number of bytes to a human readable form",
+  "main": "humanSize.js",
+  "scripts": {
+    "run": "node humanSize.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "@Tepexic",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.3.0"
+  }
+}
