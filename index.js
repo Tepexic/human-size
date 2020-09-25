@@ -1,4 +1,4 @@
-function humanSize(b) {
+function byte2human(b) {
   // default return when input is not valid
   const def = "0kB";
 
@@ -37,4 +37,4 @@ function humanSize(b) {
   );
 }
 
-module.exports = humanSize;
+module.exports = byte2human;

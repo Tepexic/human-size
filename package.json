@@ -1,16 +1,31 @@
 {
-  "name": "human-size",
+  "name": "byte-to-human",
   "version": "1.0.0",
-  "description": "Converts any number of bytes to a human readable form",
-  "main": "humanSize.js",
+  "description": "Converts any number of bytes to a string with human readable form and units",
+  "keywords": [
+    "byte",
+    "size",
+    "human",
+    "readable",
+    "converter"
+  ],
+  "homepage": "https://github.com/Tepexic/human-size",
+  "bugs": {
+    "url": "https://github.com/Tepexic/human-size/issues",
+    "email": "tepexic@tepexic.com"
+  },
+  "main": "index.js",
   "scripts": {
-    "run": "node humanSize.js",
     "test": "jest",
     "test:cov": "jest --coverage"
   },
-  "keywords": [],
-  "author": "@Tepexic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tepexic/human-size.git"
+  },
+  "author": "Jesus Velazquez <tepexic@tepexic.com> (tepexic.com)",
   "license": "MIT",
+  "private": false,
   "devDependencies": {
     "jest": "^26.3.0"
   }
